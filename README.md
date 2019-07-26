@@ -39,40 +39,40 @@ This REST-ful engine uses 7 endpoints, each with a specific purpose using the HT
 ### POST GAME
 If the user issues a POST to this endpoint by clicking in the "Click here to start new chess game" option it will create a brand new game, resetting the pieces back to their original starting positions resetting the board to its initial state
 
-![postgame](./assets/chess-web-api.png "postgame")
+![postgame](./assets/postgame.png "postgame")
 
 ### GET GAME
 If the user issues a GET to this endpoint by clicking in the "Click here to look at game status" option it will return the chessboard state according to the GameTracker module
 
-![getgame](./assets/chess-web-api.png "getgame")
+![getgame](./assets/getgame.png "getgame")
 
 ### GET MOVES
 If the user issues a GET to this endpoint by clicking in the "Click here to look at game moves" option it will return the current list of valid moves, given the placement of the pieces and whose turn it currently is
 
-![getmoves](./assets/chess-web-api.png "getmoves")
+![getmoves](./assets/getmoves.png "getmoves")
 
 ### POST MOVES
 If the user issues a POST to this endpoint by clicking in the "Click here to check on latest moves" option it will return the chessboard state according to the last move being made on the GameTracker module or it will return the chessboard state according to a specific move specified by the user on the URL
 
-![postmoves](./assets/chess-web-api.png "postmoves")
+![postmoves](./assets/postmoves.png "postmoves")
 
 ### PUT GAME
 If the user issues a PUT to this endpoint by clicking in the "Click here to check on latest game status" option it will return the chessboard state according to move id being set on the GameTracker module giving the chessboard status according to chess moves of each user
 
 Game 1           |  Game 2
 :-------------------------:|:-------------------------:
-![Game01](./assets/gametracker_CLI01.png "Game01")  |  ![Game02](./assets/gametracker_CLI02.png "Game02")
+![Game01](./assets/putgame1.png "Game01")  |  ![Game02](./assets/putgame2.png "Game02")
 
 
 ### GET PIECE FREQUENCY
 If the user issues a GET to this endpoint by clicking in the "Click here to look at game moves" option it will return the current list of the pieces given their placement on the board as well as their play frequency according to the game status
 
-![getpiecefreq](./assets/chess-web-api.png "getpiecefreq")
+![getpiecefreq](./assets/piecesfreq.png "getpiecefreq")
 
 ### GET MOVES FREQUENCY
 If the user issues a GET to this endpoint by clicking in the "Click here to check move frequency" option it will return the current list of valid moves as well as their frequency on the playlist, given the placement of the pieces and whose turn it currently is
 
-![getmovesfreq](./assets/chess-web-api.png "getmovesfreq")
+![getmovesfreq](./assets/movesfreq.png "getmovesfreq")
 
 ## Dumper
 The Chess Tourney Dumper is a JPA persistance module that store information from Broker. It saves all the information gathered by the system, including all the Chess Moves from player's games. Within a defined interval, this component will fetch data from the current streams and save it on Database.
