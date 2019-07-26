@@ -23,5 +23,5 @@ The purpose of this module is to display the chessboard with the chess-moves bei
 
 Play 1           |  Play 2
 :-------------------------:|:-------------------------:
-![CLI01](../assets/gametracker_CLI01.png "CLI01")  |  ![CLI02](../assets/gametracker_CLI02.png "CLI02")
+![CLI01](./assets/gametracker_CLI01.png "CLI01")  |  ![CLI02](./assets/gametracker_CLI02.png "CLI02")
 
