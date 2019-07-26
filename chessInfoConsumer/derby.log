@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed May 02 11:48:19 WEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.3.0 - (1405108): instance a816c00e-0163-2077-99d1-00000986a438 
+on database directory /home/jpc/Desktop/Cadeiras/ES/es2017-2018_g102/chessInfoConsumer/chessDb  with class loader sun.misc.Launcher$AppClassLoader@3d4eac69 
+Loaded from file:/home/jpc/.m2/repository/org/apache/derby/derby/10.8.3.0/derby-10.8.3.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+user.dir=/home/jpc/Desktop/Cadeiras/ES/es2017-2018_g102/chessInfoConsumer
+os.name=Linux
+os.arch=amd64
+os.version=4.13.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
