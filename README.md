@@ -10,4 +10,18 @@ The architecture can be divided into 3 sections: two smaller sections of interat
 
 ![architecture](./assets/architecture.png "architecture")
 
+## Components
+
+### Unity
+The role of Unity is to make players able to play the Chess Game.
+
+### Kafka Broker
+This broker is a component that comunicates through a Restful API with other services and its main function is to be a message middleware that handles real-time data (Chess moves from players) from Unity. It reads and writes data of the chess moves and it sends the data to the Glassfish Servlets and Dumper.
+
+### Game Tracker - CLI (Chess Layout Interface)
+The purpose of this module is to display the chessboard with the chess-moves being made by the players in Unity. Basically in this module we have two consumers that are consuming data from the Kafka Broker and playing the game on the Game Tracker module according to the received data. This module will be used by the web interface in order to determine the game status as well as other additional information
+
+Play 1           |  Play 2
+:-------------------------:|:-------------------------:
+![CLI01](../assets/gametracker_CLI01.png "CLI01")  |  ![CLI02](../assets/gametracker_CLI02.png "CLI02")
 
