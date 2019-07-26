@@ -25,8 +25,9 @@ Play 1           |  Play 2
 :-------------------------:|:-------------------------:
 ![CLI01](./assets/gametracker_CLI01.png "CLI01")  |  ![CLI02](./assets/gametracker_CLI02.png "CLI02")
 
-### Web User Interface
-- REST API
+## Web User Interface
+
+### REST API
 The Chess Tourney Web Portal is the web interface between the Chess Tourney platform and any person that wants to see a game or tournament. This API uses a REST-ful engine with a set of endpoints(described below) to manage all the information, by collecting data from the GlassFish Servlets and/or Database and displaying it in the WEB API. It can show a specific game beetween two players, chess-moves, frequencies and other devolpments.
 
 ![chesswebapi](./assets/chess-web-api.png "chess-web-api")
